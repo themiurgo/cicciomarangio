@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>ResponsiveSlides.js &middot; Alternative themes</title>
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="responsiveslides.css" />
+  <link rel="stylesheet" href="themes.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="responsiveslides.min.js"></script>
+  <script>
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        auto: false,
+        random: true,
+        pager: true,
+        nav: true,
+        random: true,
+        speed: 500,
+        maxwidth: 500,
+        namespace: "centered-btns"
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="wrapper">
+    <h1 class="cm">Ciccio Marangio è anche...</h1>
+    <div class="rslides_container">
+      <ul class="rslides" id="slider1">
+      <li>
+        <img src="burraco.jpg" alt="" />
+        <p class="caption">Campione di Burraco</p>
+      </li>
+      <li>
+        <img src="zen.jpg" alt="" />
+        <p class="caption">Grande Maestro Zen Miyagi</p>
+      </li>
+      <li>
+        <img src="bond.jpg" alt="" />
+        <p class="caption">Bond, Ciccio Bond</p>
+      </li>
+      <li>
+        <img src="communist.jpg" alt="" />
+        <p class="caption">Agitatore di masse</p>
+      </li>
+      <li>
+        <img src="robin.jpg" alt="" />
+        <p class="caption">Degno sostituto di Robin Hood</p>
+      </li>
+      <li>
+        <img src="medium.jpg" alt="" />
+        <p class="caption">Medium</p>
+      </li>
+      <li>
+        <img src="gassman.jpg" alt="" />
+        <p class="caption">Gassman</p>
+      </li>
+      <li>
+        <img src="lebowski.jpg" alt="" />
+        <p class="caption">Ciccio Lebowski</p>
+      </li>
+      <li>
+        <img src="gamer.jpg" alt="" />
+        <p class="caption">Gamer notturno</p>
+      </li>
+      <li>
+        <img src="beegees.jpg" alt="" />
+        <p class="caption">Un Bee Gees</p>
+      </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
